@@ -1,0 +1,27 @@
+sql = sequencing query language
+
+Commands:
+
+CREATE DATABASE ______ -> Create a new database
+DROP DATABASE ______ -> Deletes entire database
+
+CREATE TABLE ______ -> Create a new table
+DROP TABLE ______ -> Deletes entire table
+
+SELECT ______ FROM ______ -> Selects information from database
+ADD ______ ______ -> Adds information to database
+INSERT ______ INTP ______ -> Inserts information into a database
+DELETE ______ FROM ______ -> Deletes information from a database
+UPDATE ______ SET ______ WHERE ______ -> Updates already existing information in database
+
+CREATE DATABASE usersdb
+ADD Name, email, language, cartID, password
+
+    Name, VARCHAR(20)
+    email, VARCHAR(40)
+    language, VARCHAR (2)
+    password, VARCHAR (15)
+    CREATE TABLE cart
+    productID, cartID
+
+    name, desc, price, image, review
